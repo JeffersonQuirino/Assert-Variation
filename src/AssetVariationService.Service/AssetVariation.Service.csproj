@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AssetVariation.Infra\AssetVariation.Infra.csproj" />
+    <ProjectReference Include="..\AssetVariationService.Domain\AssetVariation.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
